@@ -1,0 +1,8 @@
+com\ebanking\testcases\RegistrationTest.class
+NewTest.class
+com\ebanking\testcases\BaseClass.class
+com\ebanking\utilities\Readconfig.class
+com\ebanking\utilities\Reporting.class
+ebankingv1\ebankingv1\AppTest.class
+com\ebanking\testcases\NewTest.class
+com\ebanking\pageobject\login.class

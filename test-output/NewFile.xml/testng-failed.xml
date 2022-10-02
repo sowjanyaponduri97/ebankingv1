@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [NewFile.xml]">
+  <test thread-count="5" name="Registration(failed)">
+    <parameter name="broname" value="Firefox"/>
+    <parameter name="URL" value="https://www.amazon.com"/>
+    <classes>
+      <class name="com.ebanking.testcases.Registration">
+        <methods>
+          <include name="browserselections"/>
+          <include name="teardown"/>
+          <include name="registerater"/>
+        </methods>
+      </class> <!-- com.ebanking.testcases.Registration -->
+    </classes>
+  </test> <!-- Registration(failed) -->
+</suite> <!-- Failed suite [NewFile.xml] -->

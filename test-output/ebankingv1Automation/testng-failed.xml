@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ebankingv1Automation]">
+  <test thread-count="5" name="ebankingv1 Chrome Test(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.ebanking.testcases.Registration">
+        <methods>
+          <include name="teardown"/>
+          <include name="registerater"/>
+          <include name="testParameterWithXML"/>
+        </methods>
+      </class> <!-- com.ebanking.testcases.Registration -->
+    </classes>
+  </test> <!-- ebankingv1 Chrome Test(failed) -->
+</suite> <!-- Failed suite [ebankingv1Automation] -->
